@@ -1,0 +1,19 @@
+.prompt-wrapper {
+  .prompt-container {
+    position: absolute;
+    bottom: 0;
+    padding: 0 5px;
+    height: 20px;
+    margin-top: auto;
+    font-size: 12px;
+
+    .prompt-input {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      height: 100%;
+      border: none;
+      outline: none;
+      pointer-events: none;
+    }
+  }
+}
